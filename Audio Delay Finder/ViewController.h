@@ -12,7 +12,8 @@
 
 @property (weak, nonatomic) IBOutlet UITextField *tempatureText;
 
-@property (weak, nonatomic) IBOutlet UITextField *distance;
+@property (weak, nonatomic) IBOutlet UITextField *feet;
+@property (weak, nonatomic) IBOutlet UITextField *inches;
 
 @property (weak, nonatomic) IBOutlet UILabel *AudioDelayFinderLabel;
 

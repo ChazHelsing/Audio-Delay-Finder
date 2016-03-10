@@ -25,7 +25,7 @@
                                 </connections>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" text="Tempature" borderStyle="roundedRect" textAlignment="center" clearsOnBeginEditing="YES" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="RZL-pb-7tl">
-                                <rect key="frame" x="132" y="148" width="114" height="30"/>
+                                <rect key="frame" x="132" y="152" width="114" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="numberPad" keyboardAppearance="light"/>
                             </textField>
@@ -35,11 +35,6 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" text="Distance" borderStyle="roundedRect" textAlignment="center" clearsOnBeginEditing="YES" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="gwQ-0S-Dki">
-                                <rect key="frame" x="132" y="287" width="114" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="numberPad" keyboardAppearance="light"/>
-                            </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Audio Delay Finder" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lpg-cx-JY4">
                                 <rect key="frame" x="82" y="28" width="215" height="36"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
@@ -84,6 +79,16 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Inches" borderStyle="roundedRect" textAlignment="center" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="p6N-6K-Nm9">
+                                <rect key="frame" x="205" y="287" width="92" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" text="Feet" borderStyle="roundedRect" textAlignment="center" clearsOnBeginEditing="YES" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="gwQ-0S-Dki">
+                                <rect key="frame" x="82" y="287" width="94" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="numberPad" keyboardAppearance="light"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <connections>
@@ -94,11 +99,12 @@
                     <connections>
                         <outlet property="AudioDelayFinderLabel" destination="lpg-cx-JY4" id="bRb-XL-v6T"/>
                         <outlet property="DelayTimeLabel" destination="hIT-H7-l7B" id="UM6-my-Nqc"/>
-                        <outlet property="distance" destination="gwQ-0S-Dki" id="b4D-tR-NJF"/>
                         <outlet property="distanceFromSourceTextLabel" destination="Phh-ke-PVF" id="sgm-oi-CTY"/>
                         <outlet property="enterTemapatureTextLabel" destination="jK2-VE-rQp" id="BCq-so-Z7F"/>
+                        <outlet property="feet" destination="gwQ-0S-Dki" id="vQG-qu-VWY"/>
                         <outlet property="feetToMetersConvertionOutputLabel" destination="b8l-mW-oWb" id="AZb-dF-fIv"/>
                         <outlet property="feetToMetersConvertionTextLabel" destination="YJ8-EP-gst" id="aG9-PL-Ost"/>
+                        <outlet property="inches" destination="p6N-6K-Nm9" id="8kJ-z9-JV2"/>
                         <outlet property="tempatureText" destination="RZL-pb-7tl" id="e2t-9t-vZl"/>
                     </connections>
                 </viewController>

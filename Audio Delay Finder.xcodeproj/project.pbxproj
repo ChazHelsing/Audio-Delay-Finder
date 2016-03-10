@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		6E703C201C89042600DC8362 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E703C1F1C89042600DC8362 /* AdSupport.framework */; };
-		6E703C221C89043900DC8362 /* AudioUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E703C211C89043900DC8362 /* AudioUnit.framework */; };
 		6E7DF2D11C861EDB00234185 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E7DF2D01C861EDB00234185 /* main.m */; };
 		6E7DF2D41C861EDB00234185 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E7DF2D31C861EDB00234185 /* AppDelegate.m */; };
 		6E7DF2D71C861EDB00234185 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E7DF2D61C861EDB00234185 /* ViewController.m */; };
@@ -41,7 +40,6 @@
 
 /* Begin PBXFileReference section */
 		6E703C1F1C89042600DC8362 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
-		6E703C211C89043900DC8362 /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = System/Library/Frameworks/AudioUnit.framework; sourceTree = SDKROOT; };
 		6E7DF2CC1C861EDB00234185 /* Audio Delay Finder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Audio Delay Finder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E7DF2D01C861EDB00234185 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6E7DF2D21C861EDB00234185 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -69,7 +67,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E703C221C89043900DC8362 /* AudioUnit.framework in Frameworks */,
 				6E703C201C89042600DC8362 /* AdSupport.framework in Frameworks */,
 				6E7DF3081C86205F00234185 /* ExternalAccessory.framework in Frameworks */,
 				6E7DF3031C861F5300234185 /* MapKit.framework in Frameworks */,
@@ -97,7 +94,6 @@
 		6E7DF2C31C861EDB00234185 = {
 			isa = PBXGroup;
 			children = (
-				6E703C211C89043900DC8362 /* AudioUnit.framework */,
 				6E703C1F1C89042600DC8362 /* AdSupport.framework */,
 				6E7DF3071C86205F00234185 /* ExternalAccessory.framework */,
 				6E7DF3051C86202600234185 /* AudioToolbox.framework */,

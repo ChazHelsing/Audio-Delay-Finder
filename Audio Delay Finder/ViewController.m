@@ -32,11 +32,17 @@
     // The input for the tempature number
     float tempatureNumber = [[_tempatureText text] floatValue];
     
-    // The input fo the distance number in feet
-    float distanceNumberFeet = [[_distance text] floatValue];
+    // The input for the distance number in feet
+    float distanceNumberFeet = [[_feet text] floatValue];
+    
+    // The input for the distance number in inches
+    float distanceNumberInchesInput = [[_inches text] floatValue];
+    
+    // The input for the distance number in feet converted to inches
+    float distanceNumberInchesConverted = (distanceNumberFeet * 12) + distanceNumberInchesInput;
     
     // The conversion from feet to meters for the equation
-    float distanceNumberMeters = distanceNumberFeet / 3.28;
+    float distanceNumberMeters = (distanceNumberInchesConverted / 12) / 3.28;
     
     
     //  The calculation for the speed of sound
