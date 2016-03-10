@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6E703C201C89042600DC8362 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E703C1F1C89042600DC8362 /* AdSupport.framework */; };
+		6E703C221C89043900DC8362 /* AudioUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E703C211C89043900DC8362 /* AudioUnit.framework */; };
 		6E7DF2D11C861EDB00234185 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E7DF2D01C861EDB00234185 /* main.m */; };
 		6E7DF2D41C861EDB00234185 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E7DF2D31C861EDB00234185 /* AppDelegate.m */; };
 		6E7DF2D71C861EDB00234185 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E7DF2D61C861EDB00234185 /* ViewController.m */; };
@@ -15,6 +17,9 @@
 		6E7DF2DF1C861EDB00234185 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E7DF2DD1C861EDB00234185 /* LaunchScreen.storyboard */; };
 		6E7DF2EA1C861EDE00234185 /* Audio_Delay_FinderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E7DF2E91C861EDE00234185 /* Audio_Delay_FinderTests.m */; };
 		6E7DF2F51C861EDE00234185 /* Audio_Delay_FinderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E7DF2F41C861EDE00234185 /* Audio_Delay_FinderUITests.m */; };
+		6E7DF3031C861F5300234185 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E7DF3021C861F5300234185 /* MapKit.framework */; };
+		6E7DF3061C86202600234185 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E7DF3051C86202600234185 /* AudioToolbox.framework */; };
+		6E7DF3081C86205F00234185 /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E7DF3071C86205F00234185 /* ExternalAccessory.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6E703C1F1C89042600DC8362 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		6E703C211C89043900DC8362 /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = System/Library/Frameworks/AudioUnit.framework; sourceTree = SDKROOT; };
 		6E7DF2CC1C861EDB00234185 /* Audio Delay Finder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Audio Delay Finder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E7DF2D01C861EDB00234185 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6E7DF2D21C861EDB00234185 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +58,10 @@
 		6E7DF2F01C861EDE00234185 /* Audio Delay FinderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Audio Delay FinderUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E7DF2F41C861EDE00234185 /* Audio_Delay_FinderUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Audio_Delay_FinderUITests.m; sourceTree = "<group>"; };
 		6E7DF2F61C861EDE00234185 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E7DF3021C861F5300234185 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		6E7DF3041C86202400234185 /* Audio Delay Finder.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Audio Delay Finder.entitlements"; sourceTree = "<group>"; };
+		6E7DF3051C86202600234185 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		6E7DF3071C86205F00234185 /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +69,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E703C221C89043900DC8362 /* AudioUnit.framework in Frameworks */,
+				6E703C201C89042600DC8362 /* AdSupport.framework in Frameworks */,
+				6E7DF3081C86205F00234185 /* ExternalAccessory.framework in Frameworks */,
+				6E7DF3031C861F5300234185 /* MapKit.framework in Frameworks */,
+				6E7DF3061C86202600234185 /* AudioToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +97,11 @@
 		6E7DF2C31C861EDB00234185 = {
 			isa = PBXGroup;
 			children = (
+				6E703C211C89043900DC8362 /* AudioUnit.framework */,
+				6E703C1F1C89042600DC8362 /* AdSupport.framework */,
+				6E7DF3071C86205F00234185 /* ExternalAccessory.framework */,
+				6E7DF3051C86202600234185 /* AudioToolbox.framework */,
+				6E7DF3021C861F5300234185 /* MapKit.framework */,
 				6E7DF2CE1C861EDB00234185 /* Audio Delay Finder */,
 				6E7DF2E81C861EDE00234185 /* Audio Delay FinderTests */,
 				6E7DF2F31C861EDE00234185 /* Audio Delay FinderUITests */,
@@ -101,6 +122,7 @@
 		6E7DF2CE1C861EDB00234185 /* Audio Delay Finder */ = {
 			isa = PBXGroup;
 			children = (
+				6E7DF3041C86202400234185 /* Audio Delay Finder.entitlements */,
 				6E7DF2D21C861EDB00234185 /* AppDelegate.h */,
 				6E7DF2D31C861EDB00234185 /* AppDelegate.m */,
 				6E7DF2D51C861EDB00234185 /* ViewController.h */,
@@ -207,6 +229,18 @@
 				TargetAttributes = {
 					6E7DF2CB1C861EDB00234185 = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = R87V426XTQ;
+						SystemCapabilities = {
+							com.apple.InterAppAudio = {
+								enabled = 1;
+							};
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+							com.apple.WAC = {
+								enabled = 1;
+							};
+						};
 					};
 					6E7DF2E41C861EDE00234185 = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -411,10 +445,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Audio Delay Finder/Audio Delay Finder.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Audio Delay Finder/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "HelsingProductions.Audio-Delay-Finder";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -422,10 +461,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Audio Delay Finder/Audio Delay Finder.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Audio Delay Finder/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "HelsingProductions.Audio-Delay-Finder";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -496,6 +540,7 @@
 				6E7DF2FB1C861EDE00234185 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6E7DF2FC1C861EDE00234185 /* Build configuration list for PBXNativeTarget "Audio Delay FinderTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +549,7 @@
 				6E7DF2FE1C861EDE00234185 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6E7DF2FF1C861EDE00234185 /* Build configuration list for PBXNativeTarget "Audio Delay FinderUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +558,7 @@
 				6E7DF3011C861EDE00234185 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
